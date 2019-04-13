@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "555234496336",
+    "firebase_url": "https://foodtruckapp-207223.firebaseio.com",
+    "project_id": "foodtruckapp-207223",
+    "storage_bucket": "foodtruckapp-207223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555234496336:android:41ac43d69e068e4b",
+        "android_client_info": {
+          "package_name": "com.example.john.tab2layout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555234496336-h9nruj4ugmtlc1botmnup20mp4bg5nh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSX77-bcTMLedC09YNbVtNth2tx8fOK1Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
