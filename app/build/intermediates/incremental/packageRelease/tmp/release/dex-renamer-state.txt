@@ -1,0 +1,4 @@
+#Sat Apr 13 10:53:19 EDT 2019
+base.0=C\:\\Users\\jshon\\AndroidStudioProjects\\Tab2layout\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

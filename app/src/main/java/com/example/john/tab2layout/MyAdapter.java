@@ -61,7 +61,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         // - replace the contents of the view with that element
         holder.textView.setText(mDataset.get(position).getName());
         holder.textView2.setText(mDataset.get(position).getLocation());
-        holder.imageView.setImageResource(mDataset.get(position).getImage());
+        //holder.imageView.setImageResource(mDataset.get(position).getImage());
 
     }
 

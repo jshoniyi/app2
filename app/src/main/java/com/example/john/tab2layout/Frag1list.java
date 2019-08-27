@@ -68,6 +68,7 @@ public class Frag1list extends Fragment  {
         myDataset = FoodCart.createFoodcartList(20);
         //final List<FoodCart> foodCarts = new ArrayList<FoodCart>();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
+        FirebaseStorage storage = FirebaseStorage.getInstance();
         DatabaseReference myRef = database.getReference("FoodCart");
         myRef.child("FoodCart");
         myRef.addValueEventListener(new ValueEventListener() {
