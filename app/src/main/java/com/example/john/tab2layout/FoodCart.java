@@ -56,9 +56,9 @@ public class FoodCart {
     public static ArrayList<FoodCart> createFoodcartList(int numContacts) {
         ArrayList<FoodCart> contacts = new ArrayList<FoodCart>();
 
-        for (int i = 1; i <= numContacts; i++) {
-            contacts.add(new FoodCart("Person " + ++lastContactId, "place"));
-        }
+       // for (int i = 1; i <= numContacts; i++) {
+       //     contacts.add(new FoodCart("Person " + ++lastContactId, "place"));
+       // }
 
         return contacts;
     }

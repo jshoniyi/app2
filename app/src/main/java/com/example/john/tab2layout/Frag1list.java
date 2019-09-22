@@ -57,6 +57,7 @@ public class Frag1list extends Fragment  {
                 // Your code to refresh the list here.
                 // Make sure you call swipeContainer.setRefreshing(false)
                 // once the network request has completed successfully.
+
                 Toast.makeText(getContext(), "Works!", Toast.LENGTH_LONG).show();
                 refreshMethod(myDataset);
                 swipeContainer.setRefreshing(false);
@@ -65,7 +66,7 @@ public class Frag1list extends Fragment  {
             }
         });
 
-        myDataset = FoodCart.createFoodcartList(20);
+        myDataset = FoodCart.createFoodcartList(1);
         //final List<FoodCart> foodCarts = new ArrayList<FoodCart>();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         FirebaseStorage storage = FirebaseStorage.getInstance();
