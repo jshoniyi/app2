@@ -78,11 +78,13 @@ public class Frag1list extends Fragment  {
                                             //all children
                                             Iterable<DataSnapshot> children = dataSnapshot.getChildren();
                                             //
+                                            refreshMethod(myDataset);
                                             for (DataSnapshot child : children) {
                                                 FoodCart value = child.getValue(FoodCart.class);
                                                 myDataset.add(value);
                                             }
                                             mAdapter.notifyDataSetChanged();
+
 
                                         }
 
